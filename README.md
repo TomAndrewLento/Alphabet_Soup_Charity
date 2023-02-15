@@ -3,7 +3,7 @@ Use a CSV containing more than 34,000 organizations to create a binary classifie
 
 # Results
 ## Data Preprocessing
-* 'IS_SUCCESSFUL' is the target variable
+* 'IS_SUCCESSFUL' is the target variable.  The model will use this to predict whether the applicants will be funded by Alphabet Soup.
 * APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT were the features
 * EIN and NAME were identifiers removed from the input data
 
